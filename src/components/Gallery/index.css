@@ -1,0 +1,36 @@
+.gallery-app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 20px;
+}
+.content-card {
+  display: flex;
+  flex-direction: column;
+}
+.final-image {
+  width: 80%;
+  border-radius: 12px;
+}
+.heading {
+  color: #1e293b;
+  font-size: 33px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.description {
+  color: #64748b;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+.thumbnail-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+}
